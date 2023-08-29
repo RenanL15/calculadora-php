@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color: #101729;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #555E74;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+img {
+    margin-bottom: 100px;
+}
+
+/* Input dos Números */
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers input {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    width: 70px;
+    background-color: #F0F4FF;
+    color: #378EAA;
+    border: none;
+    border-radius: 10px;
+    outline-style: none;
+}
+
+.numbers input::-webkit-inner-spin-button {
+    display: none;
+}
+
+#n1 {
+    margin-right: 15px;
+}
+
+#n2 {
+    margin-left: 20px;
+    
+}
+
+/* Operadores */
+
+.operators {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.operators div {
+    margin: 20px;
+    background-color: #378EAA;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.operators input:hover {
+    cursor: pointer;
+}
+
+.operators label {
+    color: #FFF;
+    font-size: 40px;
+}
+
+.operators label:hover {
+    cursor: pointer;
+}
+
+.operators input {
+    border: none;
+    width: 30px;
+    height: 25px;
+}
+
+/* Botão Calcular  */
+
+#btn-calc {
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 25px;
+    color: #FFF;
+    background-color: #378EAA;
+    transition: all 200ms ease;
+}
+
+#btn-calc:hover {
+    background-color: #61adc6;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+/* Botão Sair */
+
+#btn-sair {
+    float: right;
+    background-color: #378EAA;
+    color: #FFF;
+    font-weight: bold;
+    margin: 10px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    transition: all 200ms ease;
+}
+
+#btn-sair:hover {
+    background-color: #61adc6;
+    cursor: pointer;
+    transform: scale(1.04);
+}
